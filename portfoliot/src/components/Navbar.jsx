@@ -37,7 +37,7 @@ const Navbar = () => {
       </ul>
       <ul  className="hidden md:flex gap-5">
             <li className="cursor-pointer text-xl opacity-70
-            transition-all duration-300 hover:text-purple-500
+            transition-all duration-300 hover:text-sky-500
             hover:opacity-100">
               <a 
               href="https://www.linkedin.com/in/himanshu-tiwari-a861a7175/"
@@ -48,7 +48,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="cursor-pointer text-xl opacity-70
-            transition-all duration-300 hover:text-purple-500
+            transition-all duration-300 hover:text-sky-500
             hover:opacity-100">
               <a
                 href="https://github.com/htiwari578"
@@ -90,14 +90,26 @@ const Navbar = () => {
           </ul>
           <ul  className="flex flex-wrap gap-5">
             <li className="cursor-pointer text-xl opacity-70
-            transition-all duration-300 hover:text-yellow-500
+            transition-all duration-300 hover:text-sky-500
             hover:opacity-100">
+              <a 
+              href="https://www.linkedin.com/in/himanshu-tiwari-a861a7175/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
               <FaLinkedin />
+              </a>
             </li>
             <li className="cursor-pointer text-xl opacity-70
-            transition-all duration-300 hover:text-yellow-500
+            transition-all duration-300 hover:text-sky-900
             hover:opacity-100">
-              <FaGithub />
+              <a
+                href="https://github.com/htiwari578"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+            <FaGithub />
+            </a>
             </li>
       </ul>
 
